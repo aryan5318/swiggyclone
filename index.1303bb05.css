@@ -1,0 +1,227 @@
+body {
+  font-family: sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+  height: 80px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+
+.logo:hover {
+  height: 86px;
+  overflow: hidden;
+}
+
+.navbar {
+  z-index: 1000;
+  background-color: #fff;
+  justify-content: space-between;
+  width: 100%;
+  height: 90px;
+  margin-top: 0;
+  margin-left: 0;
+  display: flex;
+  position: fixed;
+  right: 3px;
+  box-shadow: 0 6px 12px -2px #32325d40, 0 3px 7px -3px #0000004d;
+}
+
+.search {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+}
+
+.search > li {
+  margin-left: 10px;
+  margin-right: 90px;
+  font-size: 20px;
+}
+
+.card {
+  word-wrap: break-word;
+  width: 300px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 0;
+}
+
+.image-container > img {
+  width: 400px;
+  position: relative;
+  bottom: 20px;
+  right: 80px;
+}
+
+.image-container {
+  border-radius: 20px;
+  width: 300px;
+  height: 180px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px -2px #32325d40, 0 3px 7px -3px #0000004d;
+}
+
+.Body {
+  scrollbar-width: none;
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-deco > h2 {
+  width: inherit;
+  color: #000;
+  margin-top: 2px;
+  margin-bottom: 0;
+  margin-left: 8px;
+  position: relative;
+}
+
+.text-deco > p {
+  color: #878282;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.text-deco > h4 {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.food {
+  width: 300px;
+}
+
+.Crousel {
+  width: 150px;
+  margin-left: 20px;
+}
+
+.crouselcard {
+  white-space: nowrap;
+  scrollbar-width: none;
+  overflow: auto;
+}
+
+.bodystyle {
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.navbar {
+  z-index: 1000;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+}
+
+.button {
+  margin-top: 100px;
+}
+
+.root {
+  scrollbar-width: none;
+}
+
+.navb {
+  color: #fff;
+  width: 80px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.input-box {
+  margin-left: 50px;
+  position: relative;
+}
+
+.navb {
+  --width: 100px;
+  --height: 35px;
+  --tooltip-height: 35px;
+  --tooltip-width: 90px;
+  --gap-between-tooltip-to-button: 18px;
+  --button-color: #222;
+  --tooltip-color: #fff;
+  width: var(--width);
+  height: var(--height);
+  background: var(--button-color);
+  text-align: center;
+  cursor: pointer;
+  border-radius: .45em;
+  font-family: Arial;
+  transition: background .3s;
+  position: relative;
+}
+
+.menur {
+  width: 500px;
+  margin-left: 350px;
+  font-family: sans-serif;
+}
+
+.menus {
+  gap: 300px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.food {
+  border-radius: 5px;
+  width: 100px;
+  height: auto;
+  position: relative;
+}
+
+.menuy, .contact, .About {
+  margin-top: 90px;
+}
+
+.input-box {
+  width: 2o0px;
+  color: #fff;
+  background-color: #212121;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  height: 12px;
+  padding: 10px;
+}
+
+.button {
+  --width: 100px;
+  --height: 35px;
+  --tooltip-height: 35px;
+  --tooltip-width: 90px;
+  --gap-between-tooltip-to-button: 18px;
+  --button-color: #222;
+  --tooltip-color: #fff;
+  width: var(--width);
+  height: var(--height);
+  background: var(--button-color);
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  border-radius: .45em;
+  font-family: Arial;
+  transition: background .3s;
+  position: relative;
+}
+
+.lin {
+  color: #000;
+}
+
+/*# sourceMappingURL=index.1303bb05.css.map */
