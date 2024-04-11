@@ -1,0 +1,256 @@
+body {
+
+   font-family: sans-serif;
+
+}
+
+.logo {
+    overflow: hidden;
+    height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.logo:hover{
+    overflow: hidden;
+    height: 86px;
+}
+
+.navbar {
+    margin-top: 20px;
+    display: flex;
+    z-index: 1000;
+   justify-content: space-between;
+    margin-top:0px;
+    margin-left:0px;
+   position: fixed;
+    right: 3px;
+    width: 100%;
+    height: 90px;
+    background-color:white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.search {
+   
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+
+}
+
+.search>li {
+    margin-left: 10px;
+    margin-right: 90px;
+    font-size: 20px;
+
+}
+
+.card {
+
+
+    
+    padding: 0px;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+  
+    word-wrap: break-word;
+    width: 300px;
+
+
+
+
+}
+
+.image-container>img {
+    position: relative; 
+    bottom: 20px;
+    right:80px; 
+    width: 400px;
+    
+   
+    
+}
+.image-container {
+    width: 300px; 
+    height: 180px; 
+    overflow: hidden; 
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+  }
+  
+
+.Body {
+    position: relative;
+    margin-top:50px ;
+    display: flex;
+    overflow: auto;
+
+    scrollbar-width: none;
+   
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-deco>h2 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    width: inherit;
+    position: relative;
+    margin-left: 8px;
+    color: black;
+    
+
+
+}
+
+.text-deco>p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+color: rgb(135, 130, 130);
+
+}
+
+.text-deco>h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    color: black;
+}
+
+.food {
+    width: 300px;
+}
+
+.Crousel {
+    width: 150px;
+    margin-left: 20px;
+   
+}
+
+.crouselcard {
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+
+
+.bodystyle {
+    margin-left: 160px;
+    margin-right: 160px;
+
+}
+.navbar {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    height: 70px;
+    z-index: 1000; 
+  }
+  .button{
+    margin-top: 100px;
+  }
+  .root{
+    scrollbar-width: none;
+  }
+  .navb{
+    margin-top: 20px;
+    margin-right: 5px;
+    width:80px;
+    height: 50px;
+    color:white;
+    
+  }
+  .input-box{
+    position: relative;
+    margin-left: 50px;
+  }
+
+  .navb{
+    
+        --width: 100px;
+        --height: 35px;
+        --tooltip-height: 35px;
+        --tooltip-width: 90px;
+        --gap-between-tooltip-to-button: 18px;
+        --button-color: #222;
+        --tooltip-color: #fff;
+        width: var(--width);
+        height: var(--height);
+        background: var(--button-color);
+        position: relative;
+        text-align: center;
+        border-radius: 0.45em;
+        font-family: "Arial";
+        transition: background 0.3s;
+      
+      cursor: pointer;
+  }
+  .menur{
+    font-family: sans-serif;
+    width:500px;
+    margin-left: 350px;
+  }
+  .menus{
+    display: flex;
+    gap: 300px;
+   
+    margin-top: 50px;
+    
+  }
+ .food{
+    position: relative;
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+ }
+ .menuy{
+    margin-top: 90px;
+ }
+ .contact{
+    margin-top: 90px;
+ }
+ .About{
+    margin-top: 90px;
+ }
+ .input-box {
+    background-color: #212121;
+    width: 2o0px;
+    height: 12px;
+    padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+  }
+  .button {
+    --width: 100px;
+    --height: 35px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: 18px;
+    --button-color: #222;
+    --tooltip-color: #fff;
+    width: var(--width);
+    height: var(--height);
+    background: var(--button-color);
+    position: relative;
+    text-align: center;
+    border-radius: 0.45em;
+    font-family: "Arial";
+    transition: background 0.3s;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .lin{
+    color: black;
+  }
